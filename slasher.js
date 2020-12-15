@@ -9,7 +9,7 @@ class slasher{
         this.x=x
         this.y=y
         this.r=r
-        this.image = loadImage("sprites/polygon.png");
+        this.image = loadImage("polygon.png");
         this.body=Bodies.circle(this.x,this.y,this.r/3,options)
         World.add(world,this.body)
     }
